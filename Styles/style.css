@@ -222,5 +222,5 @@ button {
 }
 
 button::after {
-  content: " Dickhead";
+  content: " Please click me!";
 }
