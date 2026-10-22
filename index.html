@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Michael's Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="main-title">Michael's Website</h1>
+    </header>
+
+    <nav>
+      <div class="nav-links">
+        <div class="nav-link">
+          <a href="#">Home</a>
+          <a href="/Pages/aboutme.html">About</a>
+          <a href="/Pages/recipiepage.html">Recipies</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <p>
+        <strong>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+          voluptates maiores quasi sint architecto, velit, alias atque ea
+          voluptatem iusto sit!
+        </strong>
+        <mark>
+          Impedit tenetur temporibus repellendus voluptate numquam adipisci sit
+          delectus nostrum consectetur quia architecto doloremque modi quo
+          repellat molestias non, atque, eius molestiae consequuntur?
+        </mark>
+        Alias itaque deleniti quo, nulla sapiente deserunt suscipit delectus
+        repellat architecto, obcaecati sint nostrum mollitia placeat?
+        <em>
+          Nulla qui consectetur ipsa fuga mollitia quod, maiores vel maxime
+          possimus totam inventore consequatur impedit omnis nihil doloremque.
+        </em>
+        Eius error maiores quibusdam, eveniet pariatur omnis enim dolorum
+        incidunt autem reiciendis culpa aliquid ab, quaerat maxime unde modi
+        numquam! Architecto, temporibus?
+      </p>
+
+      <!-- Ordered and Unordered Lists -->
+      <ul>
+        <li>Unordered 1</li>
+        <li>Unordered 2</li>
+        <li>Unordered 3</li>
+        <li>Unordered 4</li>
+        <li>Unordered 5</li>
+        <li>Unordered 6</li>
+        <li>Unordered 7</li>
+      </ul>
+
+      <ol>
+        <li>Ordered 1</li>
+        <li>Ordered 2</li>
+        <li>Ordered 3</li>
+        <li>Ordered 4</li>
+        <li>Ordered 5</li>
+        <li>Ordered 6</li>
+        <li>Ordered 7</li>
+      </ol>
+
+      <!-- Flexbox Example -->
+      <div class="boxes">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+        <div class="important-box">13</div>
+      </div>
+
+      <!-- CSS Grid Example -->
+      <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+      </div>
+
+      <!-- Media Queries Example -->
+      <div class="squares">
+        <div class="blue"></div>
+        <div class="red"></div>
+        <div class="green"></div>
+      </div>
+
+      <h2>CSS Variables</h2>
+      <div class="variable-box">
+        <div class="variable-content">
+          This box uses CSS variables for its background color.
+        </div>
+      </div>
+
+      <!-- Psudo-Classes Example -->
+      <div class="pricing-container">
+        <div class="card">
+          <h2>Basic</h2>
+          <p>$10/month</p>
+          <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+          </ul>
+          <button>Sign Up</button>
+        </div>
+      </div>
+
+      <!--Media-->
+      <h3>Media</h3>
+      <img
+        src="Media/Arteta.png"
+        alt="ArtetaPic"
+        width="350"
+        height="300"
+        title="Arteta PFP"
+      />
+      <img
+        src="https://images.lbc.co.uk/images/793485?crop=16_9&width=660&relax=1&format=webp&signature=6RlPh6dZRIyJMX7gRuEBl19PVJM="
+        alt="Saka"
+        height="300"
+        width="350"
+        title="Bukayo Saka"
+        loading="lazy"
+      />
+      <audio src="Media/ALive.mp3" controls></audio>
+
+      <video
+        src="Media/ArtetaVid.mp4"
+        controls
+        width="350"
+        height="300"
+        title="Arteta Video"
+      ></video>
+
+      <iframe
+        src="https://www.youtube.com/embed/uBAbvKKgpPs"
+        width="560"
+        height="515"
+        allowfullscreen
+      ></iframe>
+
+      <!--Forms-->
+      <form action="#">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Enter your name"
+        />
+        <button type="submit">Submit</button>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Enter your password"
+        />
+        <button type="submit">Submit</button>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Enter your email"
+        />
+        <button type="submit">Submit</button>
+      </form>
+
+      <!--Tables-->
+      <table>
+        <caption>
+          Product Information
+        </caption>
+        <tr>
+          <th scope="col">Products</th>
+          <th scope="col">Category</th>
+          <th scope="col">Color</th>
+          <th scope="col">Price</th>
+        </tr>
+        <tr>
+          <th scope="row">1</th>
+          <td scope="row">Laptop</td>
+          <td scope="row">Technology</td>
+          <td scope="row">Blue</td>
+          <td scope="row">$500</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td scope="row">Laptop</td>
+          <td scope="row">Technology</td>
+          <td scope="row">Silver</td>
+          <td scope="row">$500</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td scope="row">Smartphone</td>
+          <td scope="row">Technology</td>
+          <td scope="row">Black</td>
+          <td scope="row">$800</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td scope="row">Headphones</td>
+          <td scope="row">Technology</td>
+          <td scope="row">White</td>
+          <td scope="row">$100</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
